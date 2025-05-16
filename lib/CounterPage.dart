@@ -50,12 +50,14 @@ class CounterPage extends StatelessWidget {
             },
             child: const Icon(Icons.remove),
           ),
+          const SizedBox(height: 10.0),
           FloatingActionButton(
             onPressed: () {
               counterBloc.add(CounterResetPressed());
             },
             child: const Icon(Icons.exposure_zero),
           ),
+          const SizedBox(height: 10.0),
         ],
       ),
     );

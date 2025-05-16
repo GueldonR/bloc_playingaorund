@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'bloc/counter_bloc.dart';
-import 'bloc/counter_event.dart';
-import 'bloc/counter_state.dart';
 import 'CounterPage.dart';
 
 void main() {

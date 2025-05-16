@@ -5,7 +5,6 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import '../bloc/counter_bloc.dart';
 import '../bloc/counter_event.dart';
 import '../bloc/counter_state.dart';
-import 'main.dart';
 
 class CounterPage extends StatelessWidget {
   const CounterPage({super.key});
